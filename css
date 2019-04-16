@@ -1,0 +1,50 @@
+:root {
+  --darkgray: #6F6F6F;
+}
+
+body{
+ background-color: var(--darkgray, gray);
+  background-image: url(https://images.pexels.com/photos/301721/pexels-photo-301721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  /*background-image:linear-gradient(
+	0deg, black 20%,  var(--darkgray, gray) 75%);*/
+}
+  
+.white-background {
+  background: White;
+  margin: 50px;
+  margin-top: 90px;
+  padding: 15px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+#title{
+  text-align: center;
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 800;
+  font-size:  4em;
+  opacity: 1;
+  color: black;
+ }
+#title-div{
+  background: rgba(255,255,255, 0.7);
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#description {
+  text-align: center;
+  font-size: 1.5em;
+}
+.formContent{
+  margin: 10px;
+}
+#submit{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0.5em;
+  width: 10em;
+  border-radius: 7px;
+}
